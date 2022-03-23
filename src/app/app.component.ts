@@ -10,4 +10,8 @@ export class AppComponent {
   nameIsTarang = true;
 
   productTitle = 'Mens yellow tshirt with cross design';
+
+  callAFunc() {
+    console.log('Im in app component');
+  }
 }
