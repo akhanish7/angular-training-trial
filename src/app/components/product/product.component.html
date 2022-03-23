@@ -1,0 +1,15 @@
+<p>Hello Everyone im from product componen</p>
+<div>
+  Todays date and time is
+
+  {{ todaysDate | date }}
+
+  name is {{ name | uppercase }}
+</div>
+<div>
+  <button (click)="btnClicked()">Click me to know todays date and time</button>
+
+  <div class="date-time" *ngIf="isBtnClicked">
+    {{ todaysDate }}
+  </div>
+</div>
